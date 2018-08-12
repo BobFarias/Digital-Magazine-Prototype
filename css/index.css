@@ -1,0 +1,420 @@
+
+	@font-face {
+    font-family: 'futur';
+    src: url(../futur.ttf);
+	}
+	
+	@font-face {
+    font-family: 'MORVA';
+    src: url(../MORVA.ttf);
+	}
+	
+	
+	img.desaturate {
+	filter: grayscale(100%);
+}
+
+	table {
+    border-collapse: collapse;
+    width: 65%;
+    font-size: 3vmin;
+    text-align: center;
+    line-height: 5.5vmin;
+    position: absolute;
+    right: 18%;
+    top: 34%;
+
+	}
+
+	th {
+    height: 50px;
+	}
+	
+	th {
+	color: #22e6d5;	
+	}
+	
+	td{
+	color: #da2128;
+	}
+	
+	
+	/*video{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		overflow: hidden;
+	}
+	*/
+	
+	
+	body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+	
+
+	#background-capa{ 
+		background-color: #000;
+		width: 100%;
+		height: 100%;
+	}
+	
+	/*@media screen and (min-width: 500px) {
+	 
+	 
+		#background-capa{ 
+			width: 90%;
+			height: 100%;
+		}
+	 
+	}
+	@media screen and (min-width: 600px) {
+	 
+	 
+		#background-capa{ 
+			width: 80%;
+			height: 100%;
+		}
+	 
+	}
+	@media screen and (min-width: 700px) {
+	 
+	 
+		#background-capa{ 
+			width: 70%;
+			height: 100%;
+		}
+	 
+	}*/
+	
+	#data-capa{
+	color: white;
+    text-align: left;
+    margin: 0;	
+		
+	}
+	
+	#apresentando{
+	color: white;
+    FONT-SIZE: x-large;
+    margin-bottom: -80px;
+	}
+	
+	#texto-capa{
+	font-size: 139px;
+    font-weight: 900;
+    letter-spacing: -6px;
+    line-height: 93%;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #ff5ee6), color-stop(1, #5ef2ff) );
+	color:transparent;
+	-webkit-background-clip: text;
+	}
+		
+	#foto-capa{ 
+		background-color: #000;
+		position: absolute;
+		right: 5%;
+		top: 5%;
+		width: 90%;
+		height: 90%;
+	}
+	
+	#apresentacao-capa{
+		position: absolute;
+		right: 6%;
+		top: 75%;
+		width: 88%;
+		height: 20%;
+	}
+	
+	#texto-apresentacao{
+		position: absolute
+		top: 0%;
+		bottom: 0%;
+		left: 0%
+		right: 0%;
+		width: 50%;
+		height: 50%;
+	
+	}
+	
+	#img-apresentacao{
+		width: 100%;
+		height: auto;
+		position: absolute;
+		right: 0%;
+		left: 0%;
+		top: 0%;
+		bottom: 0%;
+		overflow: auto;
+		
+	}
+	
+	.text-azul{color: blue;}
+	
+	
+    .swiper-container, .swiper-container-h-pagina6-1, .swiper-container-h-pagina6-2 {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+		overflow: hidden;
+    }
+	.swiper-container-h-pagina6-1 {
+		background-color: #3c3c3c;
+        top: 80%;
+
+	}
+	
+	.swiper-container-h-pagina6-2 {
+		background-color: #3c3c3c;
+		width: 40%;
+        left: 60%;
+		overflow: hidden;
+	
+	}
+	
+	.swiper-container-h-pagina6-4 {
+		background-color: #3c3c3c;
+		width: 100%;
+        left: 0%;
+		overflow: hidden;
+	
+	}
+	
+	#texto-pagina-6-2{
+        width: 50%;
+		height: 80%;
+		right: 0%;
+		left: 5%;
+		top: 9%;
+		bottom: 0%;
+		position: absolute;
+	}
+	
+	
+	
+	
+	.bg-apresetacao-img{
+	width:100%;
+	height: 100%;
+	background-image: url("../image/bg-apresentacao.jpg");
+	background-repeat: repeat-x-y;
+	
+	}
+	
+	#texto-apresentacao {
+		position: absolute;
+		width: 50%;
+		height: 50%;
+		left: 25%;
+		top: 25%;
+		overflow: auto; 
+	
+	}
+	
+	#indice-top{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		bottom: 0%;
+		top: 0%;
+		left: 0%;
+	}
+	
+	.indice{
+	position: absolute;
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    right: 0;
+    left: 0;	
+		
+	}
+	
+	
+	#indice-tabela{
+				width: 100%;
+				height: 50%;
+				position: absolute;
+				
+	}
+	
+	
+	#indice-image{
+			background-color: #F0F8FF;
+			width: 100%;
+			height: 50%;
+			position: absolute;
+			top: 50%;
+			bottom: 0%;
+			right: 0%;
+			left: 0%;
+			overflow: hidden;
+		
+	}
+	
+	#indice-left{
+			width: 50%;
+			height:100%;
+			position: absolute;
+			right: 50%;
+		
+	}
+	
+	#indice-ficha{
+			width: 80%;
+			height: 80%;
+			position: absolute;
+			right: 10%;
+			top: 16%;
+			overflow: auto;
+	}
+	
+	#indice-icone{
+		    width: 80%;
+			height: 10%;
+			position: absolute;
+			right: 10%;
+			top: 5%;
+		
+	
+	}
+	
+	#indice-right{
+			width: 50%;
+			height:100%;
+			position: absolute;
+			left: 50%;
+		
+	}
+	
+	#indice-h1{
+			width: 80%;
+			height: 10%;
+			position: absolute;
+			left:10%;
+			top: 5%;
+			overflow: hidden;
+			
+		
+	}
+	
+	#indice-foto{
+			background-color: #ff22f7;
+			width: 80%;
+			height: 60%;
+			position: absolute;
+			left: 10%;
+			top: 16%;
+			overflow: hidden;
+	}
+	
+	.img-holder {position: relative;}
+	.img-holder .link {
+		position: absolute;
+		bottom: 10px; /*your button position*/
+		right: 10px; /*your button position*/
+}
+
+	#indice-creditos{
+			width: 80%;
+			height: 19%;
+			position: absolute;
+			left: 10%;
+			top: 77%;
+			overflow: auto;
+			margin-top: 6%;
+	}
+	
+	
+	
+	#corpo-materia-1{
+		width: 90%;
+		height: 70%;
+		position: absolute;
+		top: 8%;
+		bottom: 0;
+		right: 0%;
+		left: 5%;
+	}
+	
+	.propaganda{
+	background-color: #000;	
+	}
+	
+	
+	.bg-apresentacao-color{
+	
+		background-color: #fff;
+		width: 90%;
+		height: 90%;
+		position: absolute;
+		top: 5%;
+		bottom: 0%;
+		right: 0%;
+		left: 5%;
+	
+	}
+	
+	
+	
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+		overflow: hidden;
+    }
+
+ 	.swiper-container-v, .swiper-container-v-indice {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #eee;
+		overflow: hidden;
+    }
+	
+	
+	.div-transparent{
+		background-color: transparent;
+	}
+	
+	.s-scroll .swiper-wrapper .swiper-slide,
+	.s-scroll .swiper-wrapper,
+	.s-scroll 
+	{
+		overflow: auto !important;
+	}
